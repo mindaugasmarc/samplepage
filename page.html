@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title> My Page </title>
+	<link rel="stylesheet" type="text/css" href="reset_css.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700&amp;subset=latin-ext" rel="stylesheet">
+	
+</head>
+<body>
+
+	<!-- HEADER -->
+
+	<header>
+
+		<div class="header-wrapper">
+			<div class="container">
+
+			<!-- NAVIGATION -->
+			<nav>
+
+
+				<ul class="navmenu">
+
+					<li> 
+					 	<a href="#">HOME</a>
+				    </li>
+
+					<li>
+						<a href="#about">ABOUT</a>
+					</li>
+
+					<li> 
+						<a href="#skills">SKILLS</a>
+					</li>
+
+
+					<li>
+						<a href="#contacts">CONTACT</a>
+					</li>
+					
+
+				</ul>
+			</nav>
+	       
+
+			<h3 class="greeting"> Hi there! My name is Mindaugas and this is my very <br> first website! Take a look at my features and skills listed below. </h3>
+
+			<div class="button-container">
+				<button>
+
+					<a href="#"> WORK WITH US! </a>
+				
+				</button>
+
+			</div>
+			
+		</div>
+	</div>
+
+	</header>
+
+
+	<main>
+			<!-- ABOUT ME -->
+
+		<div class="about-me-wrapper" id="about">
+			<div class="container">
+			
+			<h3 class="about-me"> About me </h3>
+
+				<div class="about-me-border">
+					
+				</div>
+
+			<p class="section"> I consider myself a quick-learning, open-minded and passionate personality. The other <br> main features I possess are mentioned below.</p>
+
+			<ul>
+				<li class="block"> 
+					<img src="icons/details.png" alt="Details" width="150" height="150">
+					<h3 class="design name"> ATTENTION TO DETAILS </h3>
+					<p class="design"> I always try to pay attention to each detail of code, ensuring the best and most effective use of it.</p>
+
+				</li>
+
+				<li class="block">
+					<img src="icons/challenges.jpg" alt="Challenges" width="150" height="150">
+					<h3 class="design name"> CHALLENGES </h3>
+					<p class="design"> I believe that each person has to take challenges in order to achieve the best results, and I am no exception. </p>
+				</li>
+
+				<li class="block">
+					<img src="icons/logical-thinking.png" alt="Logic" width="150" height="150">
+					<h3 class="design name"> LOGICAL THINKING </h3>
+					<p class="design"> Programming languages, like JavaScript, requires logic and creativity. I believe these are the features I possess as I am really good at maths.</p>
+
+				</li>
+
+				<li class="block">
+					<img src="icons/motivation.png" alt="Motivation" width="150" height="150">
+					<h3 class="design name"> MOTIVATION </h3>
+					<p class="design"> Motivation is another crucial feature all people should have. Programming is an area which is really interesting and perspective, and I could not see myself in any other field I could learn and improve my skills.</p>
+				</li>
+			</ul>
+
+
+		</div>
+	</div>
+
+	<!-- SKILLS -->
+
+	<div class="skill-wrapper" id="skills">
+		<div class="container">
+
+			<h3 class="heading"> Skills </h3>
+
+			<div class="skill-border">
+				
+			</div>
+			<p class="skill-section"> Here you can see my knowledge in particular programming languages, displayed in percents.</p>
+
+			<ul>
+				<li class="doughnut">
+					<p class="percent"> 90 % </p>
+					<canvas id="myChart"></canvas>
+					<p class="feature"> HTML/CSS </p> 
+
+				</li>
+
+				<li class="doughnut">
+					<p class="percent"> 85% </p>
+					<canvas id="skill"></canvas>
+				 	<p class="feature"> JavaScript </p>
+
+				</li>
+
+				<li class="doughnut"> 
+					<p class="percent"> 60% </p>
+					<canvas id="database"></canvas>
+					<p class="feature"> SQL </p>
+				</li>
+
+				<li class="doughnut">
+					<p class="percent"> 50% </p>
+					<canvas id="backend"></canvas>
+				    <p class="feature"> PHP </p>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+
+	</main>
+
+
+<footer>
+
+	<div class="touch-wrapper" id="contacts">
+
+		<div class="container">
+
+	 	<h3 class="about-me"> Get in touch </h3>
+
+	 	<div class="touch-border">
+	 		
+	 	</div>
+	 	<p class="section"> Let's work together! Ask me any questions you have by completing the form below. </p>
+
+    
+     <div class="input-wrapper"> 
+     	<div class="name-email-wrapper">
+
+     		<form action="message.php" method="post">
+     		<input type="text" name="text" placeholder="Your Name *">
+			<input type="email" name="email" placeholder="Your Email *">
+     	</div>
+     	
+		<div class="textarea-wrapper">
+			<textarea name="your-message" placeholder="Your Message *" rows="10"></textarea>
+	    </div>
+
+	    <div class="button-container">
+	    
+	    	<input type="submit" value="SEND MESSAGE">
+
+		</div>
+		</form>
+
+		<p id="asterisk"> * - required fields </p>
+     	
+     </div>
+	 
+	 
+
+		</div>
+		
+	</div>
+
+	<div class="contact-wrapper">
+
+		<a href="https://www.facebook.com/mindaugaz.marc" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+		<a href="https://www.linkedin.com/in/mindaugas-mar%C4%8Diulionis-743397ab/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
+		<i class="fa fa-github-square" aria-hidden="true"></i>
+
+ 		<ul>
+			<li class="contacts"> <a href="https://www.facebook.com/mindaugaz.marc" target="_blank"> Facebook </a> </li>
+			<li class="contacts"> <a href="https://www.linkedin.com/in/mindaugas-mar%C4%8Diulionis-743397ab/" target="_blank"> LinkedIn </a> </li>
+			<li class="contacts"> <a href="#"> GitHub </a></li>
+		</ul>
+	
+	</div>
+
+	
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="Chart.js"></script>
+<script type="text/javascript" src="doughnut.js"></script>
+<script type="text/javascript" src="navmenu.js"></script>
+</body>
+</html>
